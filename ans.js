@@ -16,7 +16,6 @@ function prevans()
     document.getElementById("ans").innerHTML=`${(i%25)+1}. ${key[i]}`;
 }
 
-setInterval(nextans,10000);
 
 document.getElementById("prev").addEventListener('click',prevans);
 document.body.addEventListener('keypress',nextans);
