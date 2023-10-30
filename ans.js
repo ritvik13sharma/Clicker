@@ -29,7 +29,7 @@ function selectkey(test,name)
     key=key.split('');
 
     if(name.indexOf("Apt") !== -1)
-    sectionSize=100;
+    sectionSize=35;
     else
     sectionSize=30;
 }
